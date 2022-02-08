@@ -1,0 +1,16 @@
+{
+    "name": "TX Galatic - Galatic Bees",
+    "short_name": "TX Galactic",
+    "start_url": "./",
+    "theme_color": "#1A2634",
+    "background_color": "#1A2634",
+    "display": "standalone",
+    "description": "Future home of you Galactic Bee colonie",
+    "icons": [
+        {
+            "src": "thumbnail.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        }
+    ]
+ }

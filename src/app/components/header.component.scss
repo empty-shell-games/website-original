@@ -1,0 +1,13 @@
+mat-toolbar {
+    background: #000;
+    color: #fff;
+    font-size: 20px;
+
+    .project {
+        font-family: 'Play', sans-serif;
+    }
+
+    .spacer {
+        flex: 1 1 auto;
+    }
+}

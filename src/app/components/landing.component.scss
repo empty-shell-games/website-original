@@ -1,0 +1,87 @@
+:host {
+    display: flex;
+    height: calc(100vh - 64px);
+    background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+    overflow: hidden;
+    color: #fff;
+
+    .starscape {
+        display: flex;
+        flex-flow: wrap;
+        height: 100%;
+        width: 100vw;
+        align-items: center;
+        justify-content: center;
+
+        .tagline {
+            h1 {
+                font-size: 50px;
+                font-weight: 700;
+                letter-spacing: 12px;
+                width: 400px;
+                line-height: 1.25em;
+            }
+            h2 {
+                font-size: 58px;
+                color: #c5334f;
+                line-height: 1.25em;
+                font-weight: 600;
+            }
+            h3 {
+                margin-left: 20px;
+                font-size: 24px;
+            }
+            padding: 64px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .tagline {
+                text-align: center;
+                h1 {
+                    font-size: 40px;
+                    font-weight: 700;
+                    letter-spacing: 12px;
+                    width: 400px;
+                    line-height: 1.25em;
+                }
+                h2 {
+                    font-size: 50px;
+                    color: #c5334f;
+                    line-height: 1.25em;
+                    font-weight: 600;
+                }
+                h3 {
+                    margin-left: 20px;
+                    font-size: 18px;
+                }
+                padding: 32px;
+            }
+
+            img {
+                height: 200px;
+                width: 200px;
+            }
+        }
+
+        .scout-buy {
+            width: 445px;
+        }
+
+        .wide-center {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+
+        .launch-game {
+            padding: 12px 24px;    
+            font-size: 18px;
+        }
+
+        countdown {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+        }
+    }
+}

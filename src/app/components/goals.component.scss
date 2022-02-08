@@ -1,0 +1,39 @@
+:host {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    flex-flow: wrap;
+
+    li {
+        line-height: 2em;
+        font-weight: 500;
+        letter-spacing: .03em;;
+    }
+
+    @media only screen and (min-width: 600px) {
+        .nft-set {
+            margin-right: 120px;
+        }
+
+        .nfts {
+            display: none;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .nfts {
+            overflow-x: auto;
+            width: 900px;
+            display: flex;
+            picture {
+                width: 150px;
+                margin: 0 10px;
+            }
+        }
+
+        .nft-set {
+            display: none;
+        }
+    }
+}

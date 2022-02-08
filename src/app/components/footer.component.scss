@@ -1,0 +1,32 @@
+:host {
+    background: #1A2634;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    flex-flow: wrap;
+
+    color: #fff;
+
+    .policy-header {
+        font-weight: 600;
+    }
+
+    .policy {
+        a {
+            line-height: 2em;
+            word-break: break-all;
+            color: #fff;
+            text-decoration: none;
+            padding: 4px 0;
+        }
+    }
+
+    img {
+        width: 200px;
+    }
+
+    .spacer {
+        flex: 1 1 auto;
+    }
+}

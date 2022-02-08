@@ -1,0 +1,29 @@
+.countdown {
+    display: flex;
+    .bubble {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        width: 120px;
+        height: 120px;
+        border: 1px solid #fff;
+        margin: 12px;
+        border-radius: 100px;
+        .number {
+            margin-bottom: 12px;
+            font-weight: 600;
+            font-size: 40px;
+        }
+    }
+
+    @media only screen and (max-width: 600px) {
+        .bubble {
+            width: 90px;
+            height: 90px;
+            .number {
+                font-size: 30px;
+            }
+        }
+    }
+}

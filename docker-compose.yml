@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  txg-dev:
+    image: node:alpine
+    ports:
+      - "4200:4200"
+    expose: 
+      - "4200"
+    working_dir: /src
+    volumes:
+      - ./static:/static
+      - ./src:/src
+    command: sh -c "npm start"

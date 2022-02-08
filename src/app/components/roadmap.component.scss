@@ -1,0 +1,13 @@
+:host {
+    .txg-card {
+        background: #2a2a2a;
+        color: #fff;
+        max-width: 70vw;
+        max-height: 80vh;
+        overflow-y: auto;
+
+        mat-card-subtitle {
+            color: #f7f7f7;
+        }
+    }
+}

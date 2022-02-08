@@ -1,0 +1,6 @@
+<div>
+    <div class="policy-header">POLICY IDs</div>
+    <div class="policy" *ngFor="let policy of policies"><a [attr.href]="'https://cardanoscan.io/search?filter=all&value='+policy">{{policy}}</a></div>
+</div>
+<span class="spacer"></span>
+<img src="assets/cardano.svg" alt="Cardano">
